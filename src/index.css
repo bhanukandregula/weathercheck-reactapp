@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #00DBDE;
+  background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+  text-align: center;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+input {
+  border-radius: 20px;
+  outline: none;
+  border: transparent 1px;
+  padding: 10px;
+  margin: 10px 5px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  border-radius: 20px;
+  outline: none;
+  border: transparent 1px;
+  color: white;
+  background: #00DBDE;
+  padding: 10px;
+  margin: 10px 5px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.weather-description h3 h4 {
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.weather-description p {
+  color: black;
+  font-size: 10px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.location {
+  font-weight: 200;
+}
+
+/* .weather-div  {
+  background-color: chocolate;
+  margin: 210px0px;
+  padding: 2px 0 0 0;
+}
+
+.weather-div div {
+  background: white;
+  text-align: center;
+  padding-bottom: 50px;
+} */
